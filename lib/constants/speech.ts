@@ -1,0 +1,5 @@
+export const SPEECH_CONSTANTS = {
+  MAX_CHUNK_SIZE: 4000,
+  MAX_RETRIES: 2,
+  RETRY_DELAY: 1000,
+} as const;
